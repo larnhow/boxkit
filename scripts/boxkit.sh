@@ -4,5 +4,5 @@
 ./distrobox-shims.sh
 
 # Update the container and install packages
-apk update && apk upgrade
-grep -v '^#' ./boxkit.packages | xargs apk add
+sudo zypper dup
+grep -v '^#' ./boxkit.packages | xargs sudo zypper in

@@ -1,9 +1,9 @@
-FROM quay.io/toolbx-images/alpine-toolbox:edge
+FROM registry.opensuse.org/opensuse/distrobox:latest
 
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
       summary="A cloud-native terminal experience" \
-      maintainer="jorge.castro@gmail.com"
+      maintainer="larnhow@gmail.com"
 
 # Copy the setup scripts and package list
 COPY ../scripts/boxkit.sh /
