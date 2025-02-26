@@ -44,3 +44,6 @@ keepassxc
 nautilus
 nautilus-lang
 ffmpegthumbnailer
+gnome-epub-thumbnailer
+rsvg-thumbnailer
+gnome-directory-thumbnailer
