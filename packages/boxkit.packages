@@ -37,8 +37,6 @@ fontawesome-fonts
 symbols-only-nerd-fonts
 fira-code-fonts
 mozilla-fira-fonts
-inter-fonts
-inter-variable-fonts
 jetbrains-mono-fonts
 keepassxc
 nautilus
@@ -48,4 +46,5 @@ gnome-epub-thumbnailer
 rsvg-thumbnailer
 gnome-directory-thumbnailer
 gnome-epub-thumbnailer
-
+evince
+evince-lang
